@@ -9,8 +9,11 @@
 // ETAPE 1 : Allez sur https://jsonbin.io
 // ETAPE 2 : Creez un compte gratuit
 // ETAPE 3 : Creez un nouveau "Bin" (collection)
-// ETAPE 4 : Copiez votre API Key ($2a$10$...) et Bin ID (6a1b53...)
-// ETAPE 5 : Remplacez les valeurs ci-dessous
+const JSONBIN_CONFIG = {
+  API_KEY: '$2a$10$F1db60DDgpDtxyVMJJlPg.twFuf0nscnFDLXJtunPSitrBZAJoq9y',
+  BIN_ID: '6a1cacb9ddf5aa59f77d1736',   // ← NOUVEAU BIN_ID pour V3
+  BASE_URL: 'https://api.jsonbin.io/v3/b'
+};
 
 const JSONBIN_CONFIG = {
   API_KEY: 'VOTRE_CLE_API_ICI',        // ← REMPLACEZ ICI
